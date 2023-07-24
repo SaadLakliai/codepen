@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hello, World</title>
+	
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="app.js" defer></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+		<div class="text-editor">
+			<textarea id="html" class="textarea" spellcheck="false" oninput="compile()"></textarea>
+			<textarea id="css" class="textarea" spellcheck="false" oninput="compile()"></textarea>
+			<textarea id="js" class="textarea" spellcheck="false" oninput="compile()"></textarea>
+		</div>
+		<div class="page">
+			<iframe id="code"></iframe>
+		</div>
+	</div>
+</body>
+</html>
